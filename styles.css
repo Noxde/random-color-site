@@ -21,6 +21,7 @@ body {
 .color-btn {
   display: flex;
   flex-direction: column;
+  align-items: center;
 }
 
 .selection {
@@ -94,6 +95,7 @@ h1 {
   font-size: 1.5rem;
   color: var(--color);
   background-color: transparent;
+  max-width: 300px;
   transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out,
     border-color 0.2s ease-in-out;
 
