@@ -18,6 +18,10 @@ body {
   padding: 0 2rem;
 }
 
+button {
+  outline: none;
+}
+
 .color-btn {
   display: flex;
   flex-direction: column;
@@ -108,7 +112,7 @@ h1 {
   cursor: pointer;
 }
 
-@media (max-width: 400px) {
+@media (max-width: 570px) {
   .color-btn {
     align-items: center;
   }
